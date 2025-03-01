@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Caution",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*.youtube.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "icon.png"
+    }
+}
