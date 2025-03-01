@@ -16,7 +16,9 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.youtube.com/*"
+                "*://*.youtube.com/*",
+                "*://*.youtube.com/feed/subscriptions*",
+                "*://*.youtube.com/?*"
             ],
             "js": [
                 "contentScript.js"
