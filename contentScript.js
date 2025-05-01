@@ -34,7 +34,7 @@ function addHomepageHeading() {
         heading.id = 'yt-custom-heading';
         heading.innerHTML = `
       <h2>${headingText}</h2>
-      <h3>🎥 You have only ${timeRemaining()}</h3>
+      <h3>Why am I here? Remember A's ...</h3>
       <div class="custom-heading-decoration"></div>
     `;
 

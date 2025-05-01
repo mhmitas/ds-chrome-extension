@@ -63,12 +63,13 @@ html[dark] .yt-message {
     font-weight: 700;
     color: var(--yt-spec-text-primary);
     margin-bottom: 8px;
+    padding-top: 100px;
 }
 
 #yt-custom-heading h3 {
     font-family: 'YouTube Sans', 'Roboto', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 26px;
+    font-weight: bolder;
     color: var(--yt-spec-text-secondary);
     margin-bottom: 8px;
     animation: colorChange 2s infinite;
